@@ -23,6 +23,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            Grid1.DataContext = new MVAdd(new Calc());
         }
     }
 }
