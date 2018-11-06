@@ -8,8 +8,8 @@ namespace WpfApp1
 {
     class Calc
     {
-        double a;
-        double b;
+        public double a;
+        public double b;
 
         double Add()
         {
