@@ -11,22 +11,22 @@ namespace WpfApp1
         public double a;
         public double b;
 
-        double Add()
+        public double Add()
         {
             return a + b;
         }
 
-        double Sub()
+        public double Sub()
         {
             return a - b;
         }
 
-        double Div()
+        public double Div()
         {
             return a / b;
         }
 
-        double Mult()
+        public double Mult()
         {
             return a * b;
         }
